@@ -4,21 +4,30 @@ public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        Jogo jogo = new Jogo();
+        Game game = new Game();
 
-        System.out.println("==================================");
-        System.out.println("|        JOGO DA VELHA           |");
-        System.out.println("==================================");
-        System.out.println("|        Como quer jogar?        |");
-        System.out.println("|                                |");
-        System.out.println("|  1- 2 Players                  |");
-        System.out.println("|  2- Bot                        |");
-        System.out.println("==================================");
-        System.out.print("Escolha: ");
-        int escolha = scanner.nextInt();
-        scanner.nextLine();
-        System.out.println("==================================");
-        jogo.estiloJogo(escolha);
-        jogo.iniciar();
+        showMenu();
+        int choice = scanner.nextInt();
+
+        game.setGameMode(choice);
+        game.start();
     }
+
+    private static void showMenu(){
+        System.out.println("==================================");
+        System.out.println("|         TIC-TAC-TOE            |");
+        System.out.println("==================================");
+        System.out.println("|        Choose game mode        |");
+        System.out.println("|                                |");
+        System.out.println("|  1- Two Players                |");
+        System.out.println("|  2- Vs Bot                     |");
+        System.out.println("==================================");
+        System.out.print("Choice: ");
+    }
+
+
+
+
+
+
 }

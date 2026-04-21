@@ -1,65 +1,91 @@
-# 🎮 Jogo da Velha em Java (POO)
-
-Projeto desenvolvido com foco em aprendizado de Programação Orientada a Objetos (POO) em Java.
-
-##  Funcionalidades
-
-- ✔ Jogo da velha completo no terminal
-- ✔ Modo 2 jogadores
-- ✔ Modo contra bot (jogadas aleatórias)
-- ✔ Validação de jogadas
-- ✔ Verificação de vitória e empate
-- ✔ Interface simples e funcional no console
-
-##  Conceitos aplicados
-
-- Programação Orientada a Objetos (POO)
-- Encapsulamento
-- Separação de responsabilidades
-- Controle de fluxo
-- Estruturas de repetição (loops)
-- Matrizes (array 2D)
-- Lógica de jogo
-
-##  Estrutura do projeto
-
-
-Main.java → ponto de entrada do programa
-Jogo.java → controla o fluxo do jogo
-Tabuleiro.java → representa o tabuleiro e regras
-
-
-## Como executar
-
-1. Clone o repositório:
-
-
-git clone https://github.com/TiagoFran/tic-tac-toe-java-poo.git
-
-
-2. Compile os arquivos:
-
-
-javac *.java
-
-
-3. Execute o programa:
-
-
-java Main
-
-
-##  Objetivo
-
-Este projeto foi criado com o objetivo de praticar e consolidar conceitos de Java e POO através de um sistema simples, mas completo.
-
-##  Status do projeto
-
- Concluído (versão inicial funcional)  
- Em evolução
+# 🎮 Tic-Tac-Toe (Java - Object-Oriented Programming)
 
 ---
 
-##  Autor
+## 🇺🇸 English
 
-Desenvolvido por TiagoFran
+A console-based Tic-Tac-Toe game developed in Java, focusing on Object-Oriented Programming (OOP) principles and clean code structure.
+
+### 🚀 Features
+
+* ✔ Full Tic-Tac-Toe game in terminal
+* ✔ Two-player mode
+* ✔ Play against a bot (random moves)
+* ✔ Move validation
+* ✔ Win and draw detection
+* ✔ Simple and functional console interface
+
+### 🧠 Concepts Applied
+
+* Object-Oriented Programming (OOP)
+* Encapsulation
+* Separation of concerns
+* Control flow
+* Loops
+* 2D arrays (matrix)
+* Game logic implementation
+
+### 📁 Project Structure
+
+```
+Main.java       → Application entry point  
+Game.java       → Game flow control  
+Board.java      → Board representation and rules  
+```
+
+### ▶️ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/TiagoFran/tic-tac-toe-java-poo.git
+
+# Compile
+javac *.java
+
+# Run
+java Main
+```
+
+### 🎯 Purpose
+
+This project was created to practice and solidify Java and OOP concepts through a simple but complete application.
+
+### 📌 Project Status
+
+✔ Functional version completed
+🚧 Continuously improving
+
+---
+
+## 🇧🇷 Português
+
+Jogo da velha desenvolvido em Java com foco em Programação Orientada a Objetos (POO) e organização de código.
+
+### 🚀 Funcionalidades
+
+* ✔ Jogo da velha completo no terminal
+* ✔ Modo 2 jogadores
+* ✔ Modo contra bot (jogadas aleatórias)
+* ✔ Validação de jogadas
+* ✔ Verificação de vitória e empate
+* ✔ Interface simples no console
+
+### 🧠 Conceitos Aplicados
+
+* Programação Orientada a Objetos (POO)
+* Encapsulamento
+* Separação de responsabilidades
+* Controle de fluxo
+* Estruturas de repetição (loops)
+* Matrizes (array 2D)
+* Lógica de jogo
+
+### 🎯 Objetivo
+
+Este projeto foi criado para praticar e consolidar conceitos de Java e POO através de uma aplicação simples, porém completa.
+
+---
+
+## 👨‍💻 Author
+
+Developed by TiagoFran
